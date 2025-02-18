@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: clang++ build",
+      "command": "clang++",
+      "args": [
+        "-std=gnu++26",
+        "-g",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/${relativeFileDirname}/${fileBasenameNoExtension}.exe",
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build"
+    }
+  ]
+}
